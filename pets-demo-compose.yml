@@ -15,7 +15,7 @@ services:
             DB: 'db'
             ADMIN_PASSWORD_FILE: '/run/secrets/admin_password'
         networks:
-        	  - backend
+        	- backend
         secrets:
             - admin_password
             
