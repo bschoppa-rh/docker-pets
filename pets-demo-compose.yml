@@ -48,4 +48,4 @@ networks:
 
 secrets:
     admin_password:
-    external: true
+        external: true
