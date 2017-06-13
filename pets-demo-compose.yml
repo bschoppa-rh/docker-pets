@@ -44,8 +44,8 @@ services:
             - /var/run/docker.sock:/var/run/docker.sock
     
 networks:
-	 backend:
+    backend:
 
 secrets:
     admin_password:
-        external: true
+    external: true
