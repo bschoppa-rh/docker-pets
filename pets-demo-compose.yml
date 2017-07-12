@@ -36,7 +36,8 @@ services:
 
             
     visualizer:
-        image: manomarks/visualizer
+  #      image: manomarks/visualizer
+        image: dockersamples/visualizer
         ports:
             - 8080
         deploy:
