@@ -4,6 +4,7 @@ services:
         image: 52.14.152.251/admin/pets-demo:latest
         deploy:
             replicas: 3
+            update-delay 5s
         ports:
             - 5000
             - 7000
