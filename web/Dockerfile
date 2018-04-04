@@ -1,5 +1,5 @@
 
-FROM alpine:3.6
+FROM alpine
 
 RUN apk --no-cache add py-pip libpq python-dev curl
 
